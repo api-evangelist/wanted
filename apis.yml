@@ -1,8 +1,25 @@
 aid: wanted
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wanted.png
 name: Wanted
-description: 'Wanted is a company surfaced as a portfolio company of partech and added to the API Evangelist
-  network as a stub for enrichment. Sector: Applicative SaaS. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Wanted was a talent-sourcing recruitment marketplace, backed by Partech and
+  founded by Jean Meyer, that set out to disrupt traditional headhunting by connecting companies
+  with candidates surfaced and referred through a networked marketplace. It operated out of
+  New York and France under the Applicative SaaS / HR-tech category. The company has since
+  wound down: its team was acqui-hired by Revolut, and the product and website at getwanted.com
+  are no longer live (the domain is now parked and listed for sale on HugeDomains). No public
+  API, developer portal, SDKs, or documentation could be found for this provider. This profile
+  is retained as a historical company record; there is no live API surface to enrich.'
 url: https://raw.githubusercontent.com/api-evangelist/wanted/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +27,19 @@ x-backed-by:
 - partech
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-detail: 'Website getwanted.com redirects to HugeDomains ("GetWanted.com is for sale");
+  team acqui-hired by Revolut. No live API surface as of 2026-07-21.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Applicative Saas
+- Recruitment
+- Talent Sourcing
+- HR Tech
+- Marketplace
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,8 @@ maintainers:
 common:
 - type: Website
   url: https://getwanted.com/
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
