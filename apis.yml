@@ -30,7 +30,7 @@ x-tier-reason: portfolio-lead
 x-status: defunct
 x-status-detail: 'Website getwanted.com redirects to HugeDomains ("GetWanted.com is for sale");
   team acqui-hired by Revolut. No live API surface as of 2026-07-21.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
